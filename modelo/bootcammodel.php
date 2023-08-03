@@ -29,7 +29,7 @@ public function get_bootcamp(){
     return $bootcamp;
 
 }
-//agregar un bootcam
+//metodo para  agregar un bootcam 
 public function add_bootcamp($titulo, $descripcion, $star_bootcamp, $end_bootcamp, $modulos){
 
 //crear la consulta

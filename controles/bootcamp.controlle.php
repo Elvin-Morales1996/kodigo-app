@@ -14,7 +14,7 @@ class BootcampController{
         $bootcamps = $this->bootcamp->get_bootcamp();
 
         // Controlar las vistas
-        include './vista/bootcamview.php';
+        include './views/bootcamp.view.php';
     }
 
 public function add(){

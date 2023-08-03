@@ -5,11 +5,9 @@
 require_once './modelo/bootcammodel.php';
 require_once './controles/bootcamp.controlle.php';
 
+$controller = new BootcampController();
+$controller->index();
 
-
-$controlador=new  BootcampController();
-
-$controlador->add();
 
 
 ?>
