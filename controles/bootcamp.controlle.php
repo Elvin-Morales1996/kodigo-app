@@ -25,31 +25,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $end_bootcamp = $_POST['end_bootcamp'];
     $models = $_POST['models'];
 
-
-    include './vista/ADD.php';
-
-
-}
-
-
-
-
-}
+    $this->bootcamp->add_bootcamp($title, $description, $start_bootcamp,$end_bootcamp,$models);
 
 
 
 
 
+        }
+include './views/add.php';
 
-
-
-
-
-
-
-
-
-
+    }
 }
 
 ?>

@@ -1,4 +1,4 @@
-<?php require('templates/Header.php'); ?>
+<?php require('t/header.php'); ?>
     <h1 class="text-center">Welcome to Kodigo app</h1>
     <h2 class="text-center">All bootcamps</h2>
 
@@ -18,4 +18,4 @@
                 <?php endforeach; ?>
             </div>
     </div>
-<?php require('templates/Footer.php'); ?>
+<?php require('t/footer.php'); ?>
